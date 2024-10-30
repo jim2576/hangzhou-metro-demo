@@ -1,0 +1,161 @@
+/* 顶部内容 */
+
+.top {
+    height: 100px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.top img {
+    height: 100px;
+    width: 150px;
+    margin-left: 150px;
+    border-radius: 5px;
+    float: left;
+}
+
+.top li {
+    float: left;
+    margin: 0 25px;
+    line-height: 100px;
+}
+
+.top a:hover {
+    color: #27ba9b;
+    border-bottom: 2px solid #27ba9b;
+}
+
+.top input {
+    float: left;
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+.top input::placeholder {
+    padding-left: 10px;
+}
+
+.top .user {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: 500px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+/* 盒子一内容 */
+
+.box1 {
+    height: 600px;
+    margin: 0 150px;
+    background-color:deepskyblue;
+    border-radius: 5px;
+    background-image: url(../images/yifu.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.left {
+    width: 230px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.487);
+    float: left;
+}
+
+.box1 .left li {
+    height: 100px;
+    text-align: center;
+}
+
+.box1 .left li:hover {
+    background-color: rgba(39, 186, 155, 0.7);
+}
+
+.box1 .left li a {
+    line-height: 100px;
+    color: white;
+}
+
+.box1 .left span {
+    float: right;
+    margin-right: 15px;
+}
+
+/* 底部内容 */
+
+.bottom {
+    height: 500px;
+    margin-top: 45px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.bottom .box2 {
+    margin: 0 150px;
+}
+
+.bottom h2 {
+    display: inline-block;
+    font-weight: 400; 
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.bottom h5 {
+    display: inline-block;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #27ba9b;
+    cursor: default;
+}
+
+.bottom li {
+    float: left;
+    margin-right: 81px;
+    width: 200px;
+    height: 320px;
+    background-color: #f0f9f4;
+    text-align: center;
+}
+
+.bottom li:nth-child(4n) {
+    margin-right: 0;
+    float: right;
+}
+
+.bottom img {
+    width: 200px;
+    height: 260px;
+    cursor: pointer;
+}
+
+.bottom span {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.bottom span a {
+    display: inline-block;
+    font-size: 13px;
+    color: #b2b2b2;
+}
+
+.bottom .box2 li h4 {
+    text-align: center;
+    margin-top: 5px;
+    padding: 3px;
+    font-size: 16px;
+    color: #888c8a;
+    font-weight: 400;
+    cursor: default;
+}
+
+.bottom .box2 li a {
+    margin: 0 auto;
+}
